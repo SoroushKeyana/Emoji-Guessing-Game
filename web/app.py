@@ -43,6 +43,17 @@ def index():
             return redirect(url_for('game'))
     return render_template('index.html', categories=CATEGORIES, difficulties=DIFFICULTY_LEVELS)
 
+def _get_next_item():
+    """Helper function to select a new random puzzle and update the session."""
+    available = [item for item in session['matching_items'] if item not in session.get('used_emojis', [])]
+    if not available:
+        return None
+    item = random.choice(available)
+    session['used_emojis'].append(item)
+    session['current_item'] = item
+    session.modified = True  # Ensure session changes are saved
+    return item
+
 @app.route('/game', methods=['GET', 'POST'])
 def game():
     if 'matching_items' not in session or session['round'] >= ROUNDS:
@@ -50,7 +61,7 @@ def game():
     status = ''
     hint = ''
     attempts_left = 3 - session.get('attempts', 0)
-    # Only get next item if new round
+
     if request.method == 'POST':
         answer = request.form.get('answer', '').strip().lower()
         current_item = session['current_item']
@@ -63,15 +74,10 @@ def game():
             session['round'] += 1
             session['hint_used'] = False
             session['attempts'] = 0
-            # Get next item for new round
-            available = [item for item in session['matching_items'] if item not in session['used_emojis']]
-            if not available:
+            item = _get_next_item()
+            if not item:
                 return redirect(url_for('score'))
-            item = random.choice(available)
-            session['used_emojis'].append(item)
-            session['current_item'] = item
-            attempts_left = 3
-            return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint=hint, attempts_left=attempts_left)
+            return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint='', attempts_left=3)
         else:
             similarity = ratio(answer, correct)
             if similarity > 0.8:
@@ -83,15 +89,10 @@ def game():
                 session['round'] += 1
                 session['hint_used'] = False
                 session['attempts'] = 0
-                # Get next item for new round
-                available = [item for item in session['matching_items'] if item not in session['used_emojis']]
-                if not available:
+                item = _get_next_item()
+                if not item:
                     return redirect(url_for('score'))
-                item = random.choice(available)
-                session['used_emojis'].append(item)
-                session['current_item'] = item
-                attempts_left = 3
-                return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint=hint, attempts_left=attempts_left)
+                return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint='', attempts_left=3)
             else:
                 session['attempts'] = session.get('attempts', 0) + 1
                 attempts_left = 3 - session['attempts']
@@ -100,20 +101,19 @@ def game():
                     session['round'] += 1
                     session['hint_used'] = False
                     session['attempts'] = 0
-                    # Get next item for new round
-                    available = [item for item in session['matching_items'] if item not in session['used_emojis']]
-                    if not available:
+                    item = _get_next_item()
+                    if not item:
                         return redirect(url_for('score'))
-                    item = random.choice(available)
-                    session['used_emojis'].append(item)
-                    session['current_item'] = item
-                    attempts_left = 3
-                    return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint=hint, attempts_left=attempts_left)
+                    return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint='', attempts_left=3)
                 else:
                     status = f'Wrong! Try again. Attempts left: {attempts_left}'
-    # If GET or wrong answer, show current emoji
-    item = session['current_item']
-    return render_template('game.html', round=session['round']+1, emoji=item['Emojis'], status=status, hint=hint, attempts_left=attempts_left)
+
+    # This handles the initial GET request and subsequent wrong answers
+    if 'current_item' not in session or session.get('current_item') not in session.get('used_emojis', []):
+        item = _get_next_item()
+        if not item:
+            return redirect(url_for('score'))
+    return render_template('game.html', round=session['round']+1, emoji=session['current_item']['Emojis'], status=status, hint=hint, attempts_left=attempts_left)
 
 @app.route('/score')
 def score():
