@@ -9,3 +9,4 @@ RapidFuzz==3.11.0
 flask
 flask-session
 Levenshtein
+gunicorn

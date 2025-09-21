@@ -48,7 +48,6 @@ Emoji Guessing Game is a fun puzzle game where you guess the title of a movie, T
 3. **Run the web app:** `python web/app.py`
 4. **Play the game:** Open your browser and go to `http://localhost:5000`
 
-
 ## Design Choices
 - **CSV file**: Easy to scale and edit game data
 - **Colorama**: Colorful terminal experience
