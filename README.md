@@ -30,18 +30,24 @@ Emoji Guessing Game is a fun puzzle game where you guess the title of a movie, T
 - `test_project.py`: Pytest-based tests for terminal logic
 
 ## How to Play (Terminal Version)
-1. Install dependencies: `pip install -r requirements.txt`
-2. Run the game: `python project.py`
-3. Follow the prompts in your terminal
+1. **Set up a virtual environment:**
+   ```bash
+   python -m venv venv
+   # On Windows:
+   venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+2. **Install dependencies:** `pip install -r requirements.txt`
+3. **Run the game:** `python project.py`
+4. Follow the prompts in your terminal.
 
 ## How to Play (Web UI)
-1. Install web dependencies: `pip install -r requirements.txt`
-2. Run the web app: `python web/app.py`
-3. Open your browser and go to `http://localhost:5000`
-4. Select category and difficulty, read the rules, and play in a beautiful UI
+1. **Set up a virtual environment** (you can use the same one from the terminal version).
+2. **Install web dependencies:** `pip install -r requirements.txt`
+3. **Run the web app:** `python web/app.py`
+4. **Play the game:** Open your browser and go to `http://localhost:5000`
 
-## Testing
-Run `pytest test_project.py` to validate the terminal game logic.
 
 ## Design Choices
 - **CSV file**: Easy to scale and edit game data
