@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji Guessing Game - Score</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+            min-height: 100vh;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        .score-card {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(60,60,60,0.12);
+            max-width: 420px;
+            margin: 48px auto;
+            padding: 32px 28px 24px 28px;
+            text-align: center;
+        }
+        .score-title {
+            font-size: 2em;
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #43c6ac;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+        .score {
+            font-size: 1.3em;
+            margin: 18px 0 24px 0;
+            color: #222;
+        }
+        .play-again {
+            background: linear-gradient(90deg, #43c6ac 0%, #f8ffae 100%);
+            color: #222;
+            font-weight: 600;
+            border-radius: 8px;
+            border: none;
+            padding: 10px 28px;
+            font-size: 1.1em;
+            box-shadow: 0 2px 8px #43c6ac44;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.2s;
+            display: inline-flex;
+            align-items: center;
+        }
+        .play-again:hover {
+            background: linear-gradient(90deg, #f8ffae 0%, #43c6ac 100%);
+        }
+        @media (max-width: 600px) {
+            .score-card {
+                padding: 18px 8px 16px 8px;
+            }
+            .score-title {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="score-card">
+        <div class="score-title">Game Over!</div>
+        <div class="score">{{ msg|safe }}</div>
+        <a href="/" class="play-again">Play Again</a>
+    </div>
+</body>
+</html>

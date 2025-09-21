@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emoji Guessing Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+            min-height: 100vh;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+        .intro-card {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(60,60,60,0.12);
+            max-width: 60%;
+            margin: 48px auto;
+            padding: 32px 28px 24px 28px;
+            text-align: center;
+        }
+        .emoji-title {
+            font-size: 2.5em;
+            margin-bottom: 8px;
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #43c6ac;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+        label {
+            font-weight: 500;
+            color: #43c6ac;
+            margin-top: 12px;
+        }
+        select {
+            font-size: 1.1em;
+            border-radius: 8px;
+            border: 1px solid #43c6ac;
+            padding: 8px;
+            margin-bottom: 12px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button[type="submit"] {
+            background: linear-gradient(90deg, #43c6ac 0%, #f8ffae 100%);
+            color: #222;
+            font-weight: 600;
+            border-radius: 8px;
+            border: none;
+            padding: 10px 28px;
+            font-size: 1.1em;
+            box-shadow: 0 2px 8px #43c6ac44;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            transition: background 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: linear-gradient(90deg, #f8ffae 0%, #43c6ac 100%);
+        }
+        @media (max-width: 600px) {
+            .intro-card {
+                padding: 18px 8px 16px 8px;
+            }
+            .emoji-title {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="intro-card">
+        <div class="emoji-title">🎉 Emoji Guessing Game 🎉</div>
+        <div style="text-align:left; margin-bottom:18px;">
+            <h4 style="color:#43c6ac; margin-bottom:8px;">Game Rules</h4>
+            <ul style="font-size:1em; color:#444; padding-left:18px;">
+                <li>You get <strong>1 point</strong> for each correct answer without using a hint.</li>
+                <li>If you use a hint, you will earn only <strong>0.5 points</strong> for that question.</li>
+                <li>You have <strong>3 attempts</strong> to guess each emoji puzzle.</li>
+                <li>Type <strong>"hint"</strong> to get a hint.</li>
+                <li>Type <strong>"pass"</strong> to pass the current question.</li>
+                <li>The game consists of <strong>5 rounds</strong>. Try to score as high as possible!</li>
+            </ul>
+        </div>
+        <form method="post">
+            <label for="category">Select Category:</label>
+            <select name="category" id="category">
+                {% for cat in categories %}
+                <option value="{{ cat }}">{{ cat }}</option>
+                {% endfor %}
+            </select>
+            <label for="difficulty">Select Difficulty:</label>
+            <select name="difficulty" id="difficulty">
+                {% for diff in difficulties %}
+                <option value="{{ diff }}">{{ diff }}</option>
+                {% endfor %}
+            </select>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+</body>
+</html>
