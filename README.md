@@ -3,6 +3,10 @@
 ## Overview
 Emoji Guessing Game is a fun puzzle game where you guess the title of a movie, TV show, book, or video game based on a set of emojis. The game now supports both a **terminal-based version** and a **modern web-based UI**.
 
+## Live Demo
+**[Play the game online!](https://github.com/SoroushKeyana/Emoji-Guessing-Game)**
+*(Note: The web server may take a minute to start up if it's been inactive.)*
+
 ## Features
 - Multiple categories: Movies, TV Shows, Books, Video Games
 - Two difficulty levels: Easy and Hard
