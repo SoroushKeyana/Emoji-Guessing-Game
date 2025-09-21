@@ -10,6 +10,9 @@ categories = {
     '2': 'TV Shows',
     '3': 'Books',
     '4': 'Video Games',
+    '5': 'Songs',
+    '6': 'Famous People',
+    '7': 'Countries',
 }
 
 difficulty_levels = {

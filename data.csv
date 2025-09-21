@@ -1,160 +1,281 @@
-Title,Emojis,Category,Difficulty,Hint
-The Lion King,🦁👑,Movies,Easy,"Jungle adventure"
-Finding Nemo,🐠🔍,Movies,Easy,"Underwater journey"
-Frozen,❄️👭,Movies,Easy,"Snowy kingdom"
-Toy Story,🤠🧸,Movies,Easy,"Toys come to life"
-The Avengers,🦸‍♂️🦸‍♀️🌍,Movies,Easy,"Team of superheroes"
-Iron Man,🤖❤️‍🔥,Movies,Easy,"Genius billionaire"
-Jurassic Park,🦖🦕🏞️,Movies,Easy,"Dinosaurs roam free"
-Shrek,👹🟢🧌💚👸🫏🐲,Movies,Easy,"A lovable ogre's journey"
-Zootopia,🦊🐰🚔,Movies,Easy,"Animals solve crimes"
-The Incredibles,🦸‍♂️🦸‍♀️👨‍👩‍👧‍👦,Movies,Easy,"A family of superheroes"
-Wall-E,🤖🌍,Movies,Hard,"Earth-saving robot"
-Inception,🌀🛏️,Movies,Hard,"Dream manipulation"
-Guardians of the Galaxy,🚀🦝🌌,Movies,Hard,"Space-saving team"
-Interstellar,🌌🚀⏳,Movies,Hard,"Time and space travel"
-The Matrix,🕶️💊💻,Movies,Hard,"Virtual reality"
-Avatar,🌌🔵👽,Movies,Hard,"Blue-skinned aliens"
-The Hunger Games,🏹🔥🕊️,Movies,Hard,"Survival competition"
-Pirates of the Caribbean,🏴‍☠️⚓🗺️,Movies,Hard,"Pirate adventure"
-The Dark Knight,🦇🌃,Movies,Hard,"Gotham's protector"
-Inside Out,😊😢😡😨🤢,Movies,Hard,"Emotions in control"
-Harry Potter and the Sorcerer's Stone,🧙‍♂️🪄🪙,Books,Easy,"The first year at Hogwarts"
-The Hobbit,🐉⚔️🏔️,Books,Easy,"Dwarves on a journey"
-Charlotte's Web,🐷🕸️🌾,Books,Easy,"A pig and a clever spider"
-The Very Hungry Caterpillar,🐛🍎📖,Books,Easy,"A caterpillar's feast"
-Percy Jackson and the Olympians,⚡🏛️🧙‍♂️,Books,Easy,"Greek mythology adventure"
-The Legend of Zelda,🗡️🛡️🏰,Video Games,Easy,"Hero rescues princess"
-Minecraft,🟩🟦⛏️,Video Games,Easy,"Block-building adventure"
-Super Mario Bros.,🍄🕹️🏰,Video Games,Easy,"Classic platforming hero"
-Tetris,🟦🟥🟨,Video Games,Easy,"Falling blocks puzzle"
-Animal Crossing,🐻🏠🌸,Video Games,Easy,"Life simulation fun"
-Among Us,👾🚀🕵️‍♂️,Video Games,Easy,"Social deduction game"
-Sonic the Hedgehog,🦔💨🎮,Video Games,Easy,"Fast-paced platforming"
-Pokémon,⚡🐾🎮,Video Games,Easy,"Catch 'em all adventure"
-Pac-Man,🟡👻🍒,Video Games,Easy,"Maze-eating classic"
-Angry Birds,🐦🐷🎮,Video Games,Easy,"Birds vs pigs destruction"
-Dark Souls,💀🔥⚔️,Video Games,Hard,"Notorious difficulty level"
-Elden Ring,🌌👑⚔️,Video Games,Hard,"FromSoftware's open world epic"
-Call of Duty,🎮💣🔫,Video Games,Hard,"First-person military action"
-The Witcher 3,⚔️🐺🏰,Video Games,Hard,"Epic fantasy RPG"
-Cyberpunk 2077,🌆👾🤖,Video Games,Hard,"Futuristic open-world RPG"
-Red Dead Redemption 2,🐴🤠⚔️,Video Games,Hard,"Western-themed epic"
-Resident Evil,🧟🔫🏚️,Video Games,Hard,"Survival horror classic"
-Bloodborne,🩸⚔️🎮,Video Games,Hard,"Gothic action RPG"
-Sekiro,⚔️🎮🗾,Video Games,Hard,"Samurai challenge"
-Hollow Knight,🐞⚔️🏰,Video Games,Hard,"Indie platforming masterpiece"
-The Lion King,🦁👑,Books,Easy,"Jungle adventure"
-Finding Nemo,🐠🔍,Books,Easy,"Underwater journey"
-The Hobbit,🐉⚔️🏔️,Books,Easy,"Dwarves on a journey"
-Charlotte's Web,🐷🕸️🌾,Books,Easy,"A pig and a clever spider"
-The Very Hungry Caterpillar,🐛🍎📖,Books,Easy,"A caterpillar's feast"
-Percy Jackson and the Olympians,⚡🏛️🧙‍♂️,Books,Easy,"Greek mythology adventure"
-The Cat in the Hat,🎩🐱📚,Books,Easy,"Classic rhyming tale"
-Goodnight Moon,🌙🏡🐇,Books,Easy,"A bedtime story"
-Winnie the Pooh,🐻🍯🌲,Books,Easy,"Adventures in the Hundred Acre Wood"
-Anne of Green Gables,👒🏡🌸,Books,Easy,"A spirited orphan girl"
-To Kill a Mockingbird,🐦⚖️🏛️,Books,Hard,"A story of justice and race"
-1984,👁️📖🇬🇧,Books,Hard,"Big Brother is watching"
-Moby Dick,🐳⚓📜,Books,Hard,"Epic whale hunt"
-The Great Gatsby,🥂🎩🏠,Books,Hard,"Roaring Twenties tragedy"
-The Catcher in the Rye,🧢📚🚶‍♂️,Books,Hard,"Teenage rebellion"
-Pride and Prejudice,💃❤️📖,Books,Hard,"Classic romantic misunderstandings"
-Jane Eyre,🏰👩‍🦰🖤,Books,Hard,"A governess’s journey"
-Crime and Punishment,🔪⚖️📖,Books,Hard,"A moral dilemma"
-Frankenstein,⚡🧟📚,Books,Hard,"The creation of a monster"
-War and Peace,⚔️🕊️📖,Books,Hard,"A sweeping Russian epic"
-The Picture of Dorian Gray,🎨🖤⚰️,Books,Hard,"A portrait that ages for its subject"
-Wuthering Heights,🏚️❤️🌧️,Books,Hard,"A stormy love story"
-The Scarlet Letter,🅾️❤️📖,Books,Hard,"The consequences of sin in Puritan society"
-Brave New World,🔬🏙️💉,Books,Hard,"A dystopian society built on pleasure"
-Les Misérables,⚖️🕯️🇫🇷,Books,Hard,"A tale of revolution and redemption"
-The Brothers Karamazov,💔⚖️🇷🇺,Books,Hard,"Philosophical family drama"
-The Trial,⚖️🛑🔒,Books,Hard,"A man’s absurd legal battle"
-The Lord of the Rings,🧙‍♂️⚔️💍,Books,Hard,"A quest to destroy an evil ring"
-Crime and Punishment,🔪⚖️📖,Books,Hard,"A moral dilemma"
-Frankenstein,⚡🧟📚,Books,Hard,"The creation of a monster"
-Brave New World,🔬🏙️💉,Books,Hard,"A dystopian society built on pleasure"
-The Odyssey,⛵️⚔️🐉,Books,Hard,"Epic journey home after the Trojan War"
-The Road,🚗🔥🏞️,Books,Hard,"A post-apocalyptic journey of survival"
-The Shining,🏨🔪👻,Books,Hard,"A family's descent into madness"
-The Bell Jar,🔔💭📚,Books,Hard,"A woman’s descent into mental illness"
-Title,Emojis,Category,Difficulty,Hint
-The Lion King,🦁👑,Books,Easy,"Jungle adventure"
-Finding Nemo,🐠🔍,Books,Easy,"Underwater journey"
-The Hobbit,🐉⚔️🏔️,Books,Easy,"Dwarves on a journey"
-Charlotte's Web,🐷🕸️🌾,Books,Easy,"A pig and a clever spider"
-The Very Hungry Caterpillar,🐛🍎📖,Books,Easy,"A caterpillar's feast"
-Percy Jackson and the Olympians,⚡🏛️🧙‍♂️,Books,Easy,"Greek mythology adventure"
-The Cat in the Hat,🎩🐱📚,Books,Easy,"Classic rhyming tale"
-Goodnight Moon,🌙🏡🐇,Books,Easy,"A bedtime story"
-Winnie the Pooh,🐻🍯🌲,Books,Easy,"Adventures in the Hundred Acre Wood"
-Anne of Green Gables,👒🏡🌸,Books,Easy,"A spirited orphan girl"
-To Kill a Mockingbird,🐦⚖️🏛️,Books,Hard,"A story of justice and race"
-1984,👁️📖🇬🇧,Books,Hard,"Big Brother is watching"
-Moby Dick,🐳⚓📜,Books,Hard,"Epic whale hunt"
-The Great Gatsby,🥂🎩🏠,Books,Hard,"Roaring Twenties tragedy"
-The Catcher in the Rye,🧢📚🚶‍♂️,Books,Hard,"Teenage rebellion"
-Pride and Prejudice,💃❤️📖,Books,Hard,"Classic romantic misunderstandings"
-Jane Eyre,🏰👩‍🦰🖤,Books,Hard,"A governess’s journey"
-Crime and Punishment,🔪⚖️📖,Books,Hard,"A moral dilemma"
-Frankenstein,⚡🧟📚,Books,Hard,"The creation of a monster"
-War and Peace,⚔️🕊️📖,Books,Hard,"A sweeping Russian epic"
-The Picture of Dorian Gray,🎨🖤⚰️,Books,Hard,"A portrait that ages for its subject"
-Wuthering Heights,🏚️❤️🌧️,Books,Hard,"A stormy love story"
-The Scarlet Letter,🅾️❤️📖,Books,Hard,"The consequences of sin in Puritan society"
-Brave New World,🔬🏙️💉,Books,Hard,"A dystopian society built on pleasure"
-Les Misérables,⚖️🕯️🇫🇷,Books,Hard,"A tale of revolution and redemption"
-The Brothers Karamazov,💔⚖️🇷🇺,Books,Hard,"Philosophical family drama"
-The Trial,⚖️🛑🔒,Books,Hard,"A man’s absurd legal battle"
-The Lord of the Rings,🧙‍♂️⚔️💍,Books,Hard,"A quest to destroy an evil ring"
-Crime and Punishment,🔪⚖️📖,Books,Hard,"A moral dilemma"
-Frankenstein,⚡🧟📚,Books,Hard,"The creation of a monster"
-Brave New World,🔬🏙️💉,Books,Hard,"A dystopian society built on pleasure"
-The Odyssey,⛵️⚔️🐉,Books,Hard,"Epic journey home after the Trojan War"
-The Road,🚗🔥🏞️,Books,Hard,"A post-apocalyptic journey of survival"
-The Shining,🏨🔪👻,Books,Hard,"A family's descent into madness"
-The Bell Jar,🔔💭📚,Books,Hard,"A woman’s descent into mental illness"
-Friends,👫🏢☕,TV Shows,Easy,"Central Perk adventures"
-The Office,🏢😂🎙️,TV Shows,Easy,"Life in a paper company"
-The Simpsons,🟡🏠😂,TV Shows,Easy,"Springfield's quirky family"
-The Big Bang Theory,🧪😂📚,TV Shows,Easy,"Nerds navigate life and love"
-Stranger Things,🚲👾🎛️,TV Shows,Easy,"Mysteries in Hawkins"
-WandaVision,✨📺🦸‍♀️,TV Shows,Easy,"Superhero sitcom mystery"
-The Crown,👑🇬🇧🏰,TV Shows,Easy,"The life of a queen"
-The Mandalorian,🛡️👶👽,TV Shows,Easy,"A bounty hunter's journey"
-The Witcher,⚔️🧙‍♂️👑,TV Shows,Easy,"A monster hunter's adventures"
-Rick and Morty,🧪🚀😂,TV Shows,Easy,"A genius and his grandson"
-Sherlock,🕵️‍♂️🔍📜,TV Shows,Easy,"A brilliant detective in London"
-BoJack Horseman,🐴🍸😂,TV Shows,Easy,"A washed-up celebrity horse"
-How I Met Your Mother,👨‍👩‍👧‍👦🍸,TV Shows,Easy,"A man recounts his journey to find his wife"
-The Fresh Prince of Bel-Air,🤴🏠🎤,TV Shows,Easy,"A street-smart teen moves to a rich family"
-Parks and Recreation,🏞️👩‍💼💼,TV Shows,Easy,"The quirky government employees of Pawnee"
-Brooklyn Nine-Nine,🚔👮‍♂️😂,TV Shows,Easy,"The misadventures of NYPD detectives"
-The Good Place,😇🔥💀,TV Shows,Easy,"A woman navigates the afterlife"
-Supernatural,👹🛻⚡,TV Shows,Easy,"Two brothers hunt demons and monsters"
-Narcos,💰🔫🌎,TV Shows,Easy,"The rise and fall of drug cartels in Colombia"
-Breaking Bad,🧪💰🔫,TV Shows,Hard,"A chemistry teacher turned criminal"
-Game of Thrones,🐉⚔️🏰,TV Shows,Hard,"Seven kingdoms' battle"
-Westworld,🤖🤠🌵,TV Shows,Hard,"Artificial beings in a futuristic park"
-Black Mirror,📱🖥️🔮,TV Shows,Hard,"Dark tales of modern society's technological future"
-Stranger Things,🚲👾🎛️,TV Shows,Hard,"Mysteries in Hawkins"
-The Sopranos,💵👨‍👩‍👧‍👦⚖️,TV Shows,Hard,"The life of a mob boss"
-True Detective,🕵️‍♂️🌑🎥,TV Shows,Hard,"A dark crime drama"
-Narcos: Mexico,🌮💰🔫,TV Shows,Hard,"Mexican drug cartels' rise to power"
-The Handmaid's Tale,👗🦸‍♀️🔥,TV Shows,Hard,"A dystopian world of oppression"
-The Walking Dead,🧟‍♂️🔪🏃‍♀️,TV Shows,Hard,"Surviving in a post-apocalyptic world"
-The Mandalorian,🛡️👶👽,TV Shows,Hard,"A bounty hunter’s quest"
-Money Heist,💰🔫⏳,TV Shows,Hard,"A criminal gang pulls off heists"
-Peaky Blinders,🧢⚔️🏙️,TV Shows,Hard,"A gang's rise in post-WWI Britain"
-Fargo,🔪❄️💰,TV Shows,Hard,"A dark crime story with unexpected twists"
-The Boys,⚡🦸‍♂️🔫,TV Shows,Hard,"Superheroes with dark, corrupt sides"
-Ozark,💵🎡🏞️,TV Shows,Hard,"A financial planner is forced into money laundering"
-Mad Men,💼🍸👔,TV Shows,Hard,"The world of 1960s advertising"
-Dexter,🔪💉🩸,TV Shows,Hard,"A blood-spatter analyst moonlights as a serial killer"
-The Wire,🔫🚔🏙️,TV Shows,Hard,"A gritty look at crime in Baltimore"
-Chernobyl,☢️🔥🏭,TV Shows,Hard,"The aftermath of the 1986 nuclear disaster"
-Twin Peaks,🌲🔪👁️,TV Shows,Hard,"A surreal murder mystery in a small town"
-American Horror Story,👹🪦🏚️,TV Shows,Hard,"Anthology series with chilling horror tales"
-House of Cards,💼⚖️💰,TV Shows,Hard,"Political drama with power plays and betrayal"
-Fleabag,🐑🍸📖,TV Shows,Hard,"A quirky, dark comedy about a troubled woman"
+Title,Emojis,Hint,Category,Difficulty
+The Hobbit,🧙‍♂️🐲💍,A hobbit goes on an unexpected journey,Books,Easy
+The Hunger Games,🏹🔥 distrito,A girl volunteers to take her sister's place in a deadly competition,Books,Easy
+The Very Hungry Caterpillar,🐛🍎🍃,A picture book about a caterpillar's life cycle,Books,Easy
+Where the Wild Things Are,👹👑⛵,A boy's adventure to an island inhabited by monsters,Books,Easy
+Green Eggs and Ham,🍳🍖🟢,A character is pestered to try a particular dish,Books,Easy
+The Cat in the Hat,🐱🎩🏠,A tall, mischievous cat visits two children on a rainy day,Books,Easy
+Charlie and the Chocolate Factory,🍫🏭🎫,A poor boy wins a tour of the most eccentric candy factory,Books,Easy
+Alice in Wonderland,🐇🎩☕,A girl falls down a rabbit hole into a fantasy world,Books,Easy
+The Chronicles of Narnia: The Lion, the Witch and the Wardrobe,🦁🧙‍♀️🚪,Four siblings discover a magical world in a wardrobe,Books,Easy
+A Wrinkle in Time,⏳💫🌌,A young girl's journey through space and time to find her father,Books,Easy
+The Giving Tree,🌳👦🍎,The story of a tree's lifelong relationship with a boy,Books,Easy
+Diary of a Wimpy Kid,📓👦🧀,The journal of a middle-school boy,Books,Easy
+Percy Jackson & The Olympians: The Lightning Thief,⚡️🔱🌊,A boy discovers he is the son of a Greek god,Books,Easy
+The Little Prince,🤴🌹🦊,A young prince visits various planets in space,Books,Easy
+The Polar Express,🚂🔔🎅,A boy's magical train ride to the North Pole,Books,Easy
+Holes,🕳️🦎🏜️,Boys at a juvenile detention camp are forced to dig holes,Books,Easy
+The Secret Garden,🔑🌸🌿,An orphan discovers a magical hidden garden,Books,Easy
+Charlotte's Web,🕷️🕸️🐷,The story of a friendship between a pig and a spider,Books,Easy
+The BFG,🧑‍🤝‍🧑👂😴,A young girl befriends a Big Friendly Giant,Books,Easy
+Matilda,👧📚✨,A gifted girl with telekinetic powers,Books,Easy
+The Great Gatsby,🥂💚💡,A mysterious millionaire's obsession with a former love,Books,Hard
+1984,👁️📺✍️,A man in a totalitarian society rewrites history,Books,Hard
+To Kill a Mockingbird,🐦⚖️👧,A lawyer defends a black man in the racially charged South,Books,Hard
+Dune,🏜️🐛✨,The story of a noble family's battle for control of a desert planet,Books,Hard
+Brave New World,💊🏭👶,A dystopian novel about a society engineered for stability,Books,Hard
+Fahrenheit 451,🔥📚👨‍🚒,A future American society where books are outlawed,Books,Hard
+Moby Dick,🐳🐋 Ahab,The captain of a whaling ship seeks revenge on a giant whale,Books,Hard
+The Catcher in the Rye,⚾️🧢🏙️,A few days in the life of a cynical teenager,Books,Hard
+Pride and Prejudice,💃🎩💌,The story of five unmarried sisters in 19th-century England,Books,Hard
+War and Peace,⚔️🕊️🇷🇺,A novel that chronicles the history of the French invasion of Russia,Books,Hard
+The Odyssey,⛵️🌀🌊,An epic poem about a Greek hero's journey home after the Trojan War,Books,Hard
+Frankenstein,🧟‍♂️⚡️👨‍🔬,A young scientist creates a sapient creature in an unorthodox scientific experiment,Books,Hard
+Don Quixote,🐴🛡️🌬️,A Spanish nobleman who reads so many chivalric romances that he loses his sanity,Books,Hard
+Crime and Punishment,斧💰🤔,A poor ex-student in St. Petersburg formulates a plan to kill an unscrupulous pawnbroker,Books,Hard
+One Hundred Years of Solitude,家族⏳🦋,The multi-generational story of the Buendía family,Books,Hard
+The Sound and the Fury,🌹🕰️🗣️,The story of the decline of a Southern family,Books,Hard
+Ulysses,🚶‍♂️🏙️🇮🇪,Chronicles the appointments and encounters of Leopold Bloom in Dublin in the course of an ordinary day,Books,Hard
+Slaughterhouse-Five,👽🕰️💣,An anti-war novel about the experiences of a soldier in World War II,Books,Hard
+Heart of Darkness,🚢🇨🇬🖤,A voyage up the Congo River into the Congo Free State,Books,Hard
+Infinite Jest,🎾📼🤯,A lengthy and complex novel set in a near-future North American dystopia,Books,Hard
+Japan,🍣🌸🗼,The Land of the Rising Sun,Countries,Easy
+Egypt,🐪🔺📜,Home of the pyramids and the Sphinx,Countries,Easy
+Brazil,⚽🎉🏞️,Famous for Carnival and the Amazon rainforest,Countries,Easy
+Canada,🍁🏒🐻,Known for maple syrup and politeness,Countries,Easy
+Italy,🍕🍝🏛️,Shaped like a boot, famous for pasta and ancient ruins,Countries,Easy
+Australia,🦘🐨🌊,A continent known for its unique wildlife,Countries,Easy
+India,🐘🕌🍛,Known for Bollywood, the Taj Mahal, and spicy food,Countries,Easy
+United States of America,🇺🇸🦅🗽,Home of Hollywood, the Statue of Liberty, and the Grand Canyon,Countries,Easy
+China,🇨🇳🐉🐼,Known for the Great Wall and giant pandas,Countries,Easy
+France,🇫🇷🍷🥖,Famous for the Eiffel Tower, wine, and baguettes,Countries,Easy
+United Kingdom,🇬🇧👑☕,Known for its royal family, tea, and red telephone boxes,Countries,Easy
+Mexico,🇲🇽🌮🌵,Famous for its cuisine, ancient ruins, and beaches,Countries,Easy
+Russia,🇷🇺🐻❄️,The largest country in the world, known for its cold winters and matryoshka dolls,Countries,Easy
+Germany,🇩🇪🍺🚗,Famous for its beer, sausages, and cars,Countries,Easy
+Spain,🇪🇸💃🐂,Known for flamenco dancing, bullfighting, and paella,Countries,Easy
+South Korea,🇰🇷🎤📱,Famous for K-pop, kimchi, and technology,Countries,Easy
+Greece,🇬🇷🏛️🏺,The birthplace of democracy, philosophy, and the Olympic Games,Countries,Easy
+Ireland,🇮🇪🍀🍻,Known as the Emerald Isle, famous for its pubs and St. Patrick's Day,Countries,Easy
+Switzerland,🇨🇭🏔️🍫,Famous for its mountains, chocolate, and watches,Countries,Easy
+New Zealand,🇳🇿🥝🐑,Known for its stunning landscapes, kiwi birds, and the Haka,Countries,Easy
+Vatican City,🇻🇦⛪️👨‍✈️,"The smallest independent state in the world, located within Rome",Countries,Hard
+Monaco,🇲🇨🏎️🎰,A tiny, wealthy country on the French Riviera, known for its casinos and Grand Prix,Countries,Hard
+Iceland,🇮🇸🌋❄️🎵,An island nation known for its volcanoes, glaciers, and the Northern Lights,Countries,Hard
+Argentina,🇦🇷💃🥩,Famous for tango dancing, steak, and Patagonia,Countries,Hard
+Chile,🇨🇱🗿🏔️,"A long, narrow country known for its diverse landscapes, from deserts to glaciers, and Easter Island",Countries,Hard
+Peru,🇵🇪🦙⛰️,Home to the ancient Incan city of Machu Picchu and the Nazca Lines,Countries,Hard
+Norway,🇳🇴🚢🏞️,Known for its fjords, Vikings, and salmon,Countries,Hard
+Sweden,🇸🇪🔨 IKEA,Famous for its furniture, meatballs, and pop music,Countries,Hard
+Finland,🇫🇮🧖‍♀️📱,Known as the 'Land of a Thousand Lakes', famous for saunas and mobile phones,Countries,Hard
+Denmark,🇩🇰🧱🚲,"The home of LEGO, Hans Christian Andersen, and a strong cycling culture",Countries,Hard
+Netherlands,🇳🇱🌷🚲,Famous for its tulips, windmills, and canals,Countries,Hard
+Belgium,🇧🇪🧇🍫,Known for its waffles, chocolate, and beer,Countries,Hard
+Portugal,🇵🇹⛵️🥧,Famous for its explorers, port wine, and pastel de nata,Countries,Hard
+Turkey,🇹🇷🕌☕️,A country at the crossroads of Europe and Asia, known for its bazaars and kebabs,Countries,Hard
+Thailand,🇹🇭🐘🏝️,Famous for its temples, beaches, and spicy food,Countries,Hard
+Vietnam,🇻🇳🍜🏍️,Known for its pho, motorbikes, and Ha Long Bay,Countries,Hard
+South Africa,🇿🇦🦁💎,"A country with a diverse landscape, known for its wildlife, wine, and history of apartheid",Countries,Hard
+Nigeria,🇳🇬🎬🎵,"The most populous country in Africa, known for its film industry (Nollywood) and music",Countries,Hard
+Kenya,🇰🇪🏃‍♂️🦓,"Famous for its wildlife safaris, long-distance runners, and the Maasai people",Countries,Hard
+Morocco,🇲🇦🐪🕌,A North African country known for its vibrant markets, deserts, and tagine,Countries,Hard
+William Shakespeare,✍️🎭📜,An English playwright, poet, and actor,Famous People,Easy
+Santa Claus,🎅🎁🎄,A legendary figure who brings gifts on Christmas Eve,Famous People,Easy
+The Queen (Elizabeth II),👑🇬🇧👵,The long-reigning monarch of the United Kingdom,Famous People,Easy
+Michael Jackson,🕺👑🎤,The 'King of Pop',Famous People,Easy
+Elvis Presley,🕺🎸👑,The 'King of Rock and Roll',Famous People,Easy
+Marilyn Monroe,💃🎬💋,An iconic American actress, model, and singer,Famous People,Easy
+Dwayne "The Rock" Johnson,🪨💪🎬,A professional wrestler turned movie star,Famous People,Easy
+Taylor Swift,🎤🎸🐍,A global pop superstar known for her narrative songwriting,Famous People,Easy
+Beyoncé,👑🐝🎤,An American singer, songwriter, and actress, often called 'Queen Bey',Famous People,Easy
+Lionel Messi,⚽️🇦🇷🐐,An Argentine professional footballer, often considered the greatest of all time,Famous People,Easy
+Cristiano Ronaldo,⚽️🇵🇹🐐,A Portuguese professional footballer,Famous People,Easy
+Usain Bolt,🏃‍♂️⚡️🇯🇲,A Jamaican former sprinter, widely considered to be the greatest sprinter of all time,Famous People,Easy
+Michael Jordan,🏀🐐2️⃣3️⃣,A former professional basketball player, often cited as the greatest of all time,Famous People,Easy
+Oprah Winfrey,🎤📺📚,An American talk show host, television producer, actress, author, and philanthropist,Famous People,Easy
+Bill Gates,💻💰🪟,Co-founder of Microsoft Corporation,Famous People,Easy
+Steve Jobs,🍎📱👨‍💻,Co-founder of Apple Inc.,Famous People,Easy
+Elon Musk,🚀🚗👽,CEO of Tesla and SpaceX,Famous People,Easy
+Donald Trump,🇺🇸🏢👱‍♂️,45th President of the United States,Famous People,Easy
+Joe Biden,🇺🇸👴✈️,46th President of the United States,Famous People,Easy
+Barack Obama,🇺🇸👨‍⚖️👍,44th President of the United States,Famous People,Easy
+Albert Einstein,🧠⚛️👅,Developed the theory of relativity,Famous People,Hard
+Leonardo da Vinci,🎨🚁👨‍🎨,"A Renaissance artist, and inventor",Famous People,Hard
+Cleopatra,🐍👑🇪🇬,The last active ruler of the Ptolemaic Kingdom of Egypt,Famous People,Hard
+Marie Curie,🔬☢️👩‍🔬,A physicist and chemist who conducted pioneering research on radioactivity,Famous People,Hard
+Isaac Newton,🍎🌳💡,Developed the laws of motion and universal gravitation,Famous People,Hard
+Nikola Tesla,⚡️💡🕊️,An inventor and engineer known for his contributions to the design of the modern AC electricity system,Famous People,Hard
+Vincent van Gogh,🌻👂🎨,A Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art,Famous People,Hard
+Pablo Picasso,🎨🟦🧊,A Spanish painter, sculptor, printmaker, ceramicist and theatre designer,Famous People,Hard
+Frida Kahlo,🌺👩‍🎨🇲🇽,A Mexican painter known for her many portraits, self-portraits, and works inspired by the nature and artifacts of Mexico,Famous People,Hard
+Martin Luther King Jr.,🗣️🕊️👨‍⚖️,"An American Baptist minister, and activist who became the most visible spokesperson and leader in the civil rights movement",Famous People,Hard
+Nelson Mandela,🇿🇦✊🕊️,"A South African anti-apartheid revolutionary, political leader, and philanthropist who served as President of South Africa",Famous People,Hard
+Mahatma Gandhi,🇮🇳👓🕊️,An Indian lawyer, anti-colonial nationalist and political ethicist,Famous People,Hard
+Stephen Hawking,👨‍🦽🌌⭐,"An English theoretical physicist, cosmologist, and author",Famous People,Hard
+Julius Caesar,🏛️🗡️🥗,A Roman general and statesman,Famous People,Hard
+Genghis Khan,🇲🇳🐴🏹,The founder and first Great Khan of the Mongol Empire,Famous People,Hard
+Joan of Arc,🇫🇷⚔️🔥,A peasant girl who led the French army to victory over the English during the Hundred Years' War,Famous People,Hard
+Confucius,🤔📜🇨🇳,A Chinese philosopher and politician of the Spring and Autumn period,Famous People,Hard
+Mozart,🎹🎼👦,A prolific and influential composer of the Classical period,Famous People,Hard
+Beethoven,🎹🎼 deafness,"A German composer and pianist, a crucial figure in the transition between the Classical and Romantic eras",Famous People,Hard
+Charles Darwin,🐒⛵️📖,"An English naturalist, geologist, and biologist, best known for his contributions to the science of evolution",Famous People,Hard
+Finding Nemo,🐠👨‍👦🌊,A clownfish searches for his lost son,Movies,Easy
+The Lion King,🦁👑🌅,A young lion prince must reclaim his kingdom,Movies,Easy
+Jurassic Park,🦖🧬🏝️,A theme park of cloned dinosaurs goes awry,Movies,Easy
+Forrest Gump,🏃‍♂️🍫🦐,The life story of a man with a low IQ,Movies,Easy
+Star Wars: A New Hope,🚀🤖✨,A farm boy joins a rebellion in space,Movies,Easy
+Harry Potter and the Sorcerer's Stone,🧙‍♂️⚡️🚂,A young boy discovers he is a wizard,Movies,Easy
+Titanic,🚢💔🧊,A tragic love story aboard a famous ship,Movies,Easy
+Avatar,🌍💫💙,A paraplegic marine is dispatched to the moon Pandora,Movies,Easy
+Jaws,🦈🌊🚤,A giant man-eating shark attacks a beach community,Movies,Easy
+Back to the Future,🕰️🚗⚡,A teenager is accidentally sent 30 years into the past,Movies,Easy
+Toy Story,🤠👨‍🚀🧸,Toys come to life when humans aren't around,Movies,Easy
+Up,🎈🏠👴,An old man flies his house to South America,Movies,Easy
+The Incredibles,🦸‍♂️👨‍👩‍👧‍👦💥,A family of undercover superheroes,Movies,Easy
+Frozen,❄️👸☃️,A queen with icy powers runs away,Movies,Easy
+Shrek,🟢👹👸,An ogre rescues a princess,Movies,Easy
+E.T. the Extra-Terrestrial,👽🚲🌕,A boy befriends a lost alien,Movies,Easy
+The Wizard of Oz,🌪️👠🦁,A girl is transported to a magical land,Movies,Easy
+Home Alone,🏠👦😱,A boy is accidentally left behind by his family,Movies,-Man,Easy
+Spider,🕷️🕸️🏙️,A teenager gets bitten by a radioactive arachnid,Movies,Easy
+The Avengers,🦸‍♂️🦸‍♀️💥🌍,A team of superheroes assembles to save the world,Movies,Easy
+Inception,🌀💭🏢,A thief who steals information by entering people's dreams,Movies,Hard
+The Matrix,💊😎🧥,A hacker discovers a simulated reality,Movies,Hard
+Pulp Fiction,💃🍔🔫,Intertwining tales of crime in Los Angeles,Movies,Hard
+The Lord of the Rings: The Fellowship of the Ring,🧝‍♂️💍🌋,A hobbit must destroy a powerful ring,Movies,Hard
+The Godfather,🤌🍊🐴,The aging patriarch of an organized crime dynasty,Movies,Hard
+Blade Runner,🤖🦄🌧️,A detective hunts down synthetic humans,Movies,Hard
+A Clockwork Orange,🍊🥛👁️,A dystopian film about a charismatic, delinquent protagonist,Movies,Hard
+The Silence of the Lambs,🐑🦋👨‍⚕️,An FBI trainee seeks help from a manipulative cannibal,Movies,Hard
+Fight Club,👊🧼💥,An insomniac office worker looking for a way to change his life,Movies,Hard
+The Shining,🏨🪓👬,A family heads to an isolated hotel for the winter,Movies,Hard
+Goodfellas,🍝🔫🤵,The story of mobster Henry Hill,Movies,Hard
+Parasite,🍑🏠🌧️,"A poor family schemes to become employed by a wealthy family, and the dark secrets they uncover",Movies,Hard
+No Country for Old Men,💰🤠🔫,A hunter stumbles upon a bloody crime scene and two million dollars,Movies,Hard
+Eternal Sunshine of the Spotless Mind,☀️❤️🧠,A couple undergoes a procedure to erase each other from their memories,Movies,Hard
+Memento,📝📸🔄,A man with short-term memory loss attempts to track down his wife's murderer,Movies,Hard
+The Grand Budapest Hotel,🏨🛎️🍰,The adventures of a legendary concierge at a famous hotel,Movies,Hard
+Birdman,🐦🎭🦸‍♂️,A washed-up actor who once played an iconic superhero,Movies,Hard
+There Will Be Blood,🛢️👨‍🍼🎳,A story of family, religion, hatred, oil and madness,Movies,Hard
+2001: A Space Odyssey,🚀🐒🤖,Humanity finds a mysterious object buried beneath the lunar surface,Movies,Hard
+Apocalypse Now,🚁🌴🃏,A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel,Movies,Hard
+Yesterday,😔🎸📅,A famous ballad by The Beatles,Songs,Easy
+Billie Jean,🕺🧤🌙,A song about a woman claiming the singer is the father of her child,Songs,Easy
+Baby Shark,👶🦈🎶,A children's song about a family of sharks,Songs,Easy
+Let It Go,❄️👸🎤,A song from the Disney movie Frozen,Songs,Easy
+Happy,😊👏🎉,An upbeat song by Pharrell Williams,Songs,Easy
+Twinkle Twinkle Little Star,✨🌟💎,A popular English lullaby,Songs,Easy
+Old MacDonald Had a Farm,👨‍🌾🐷🐮,A children's song about a farmer and his animals,Songs,Easy
+Jingle Bells,🔔🛷🎅,A classic Christmas song,Songs,Easy
+I Will Always Love You,❤️♾️🎤,A famous ballad by Whitney Houston,Songs,Easy
+Single Ladies (Put a Ring on It),💍💃🖐️,A song by Beyoncé about commitment,Songs,Easy
+Call Me Maybe,📞🤔🤷‍♀️,A pop song by Carly Rae Jepsen,Songs,Easy
+Shake It Off,💃🕺🚫,A song by Taylor Swift about ignoring negativity,Songs,Easy
+Uptown Funk,🕺🎺😎,A funk-pop song by Mark Ronson and Bruno Mars,Songs,Easy
+Despacito,💃🕺🇵🇷,A Spanish-language hit by Luis Fonsi and Daddy Yankee,Songs,Easy
+Gangnam Style,🕺🇰🇷🐴,A K-pop song by Psy that became a viral hit,Songs,Easy
+Waka Waka (This Time for Africa),⚽🌍🇿🇦,The official song of the 2010 FIFA World Cup,Songs,Easy
+Eye of the Tiger,🐅👁️🥊,A song by Survivor, famous from the movie Rocky III,Songs,Easy
+Don't Stop Believin',🚫🛑🤔,An iconic rock anthem by Journey,Songs,Easy
+I Want to Hold Your Hand,🤝❤️ Beatles,An early hit by The Beatles,Songs,Easy
+Sweet Caroline,🍬 Caroline 🎶,A classic song by Neil Diamond,Songs,Easy
+Bohemian Rhapsody,👑🎤🎶,Is this the real life? Is this just fantasy?,Songs,Hard
+Stairway to Heaven,🪜😇🎸,A song by Led Zeppelin with a famous guitar solo,Songs,Hard
+Hotel California,🏨🌴🎸,You can check out any time you like, but you can never leave,Songs,Hard
+Smells Like Teen Spirit,👃👧👻,The song that launched the grunge movement, by Nirvana,Songs,Hard
+Like a Rolling Stone,🎲🪨 Bob Dylan,A classic song by Bob Dylan about a fall from grace,Songs,Hard
+American Pie,🥧🇺🇸🎶,A long, symbolic song by Don McLean about the history of rock and roll,Songs,Hard
+Hallelujah,🙌🎶 Leonard Cohen,A song by Leonard Cohen with many famous covers,Songs,Hard
+Imagine,🤔🌍☮️,John Lennon's plea for world peace,Songs,Hard
+Hey Jude,👋 Jude 🎶,A comforting ballad by The Beatles,Songs,Hard
+Lose Yourself,🍝🎤 Eminem,Eminem's Oscar-winning song from the movie 8 Mile,Songs,Hard
+Wonderwall,🤔🧱 Oasis,A famous Britpop anthem by Oasis,Songs,Hard
+Africa,🌍🌧️ Toto,A song by Toto about blessing the rains,Songs,Hard
+Take On Me,✏️📖🎤,A synth-pop hit by A-ha with a famous animated music video,Songs,Hard
+Under the Bridge,🌉🎸🌶️,A song by the Red Hot Chili Peppers about loneliness and addiction,Songs,Hard
+Creep,👻👽 Radiohead,Radiohead's debut single about feeling like an outcast,Songs,Hard
+Another Brick in the Wall,🧱🧱🧱,A protest song by Pink Floyd against rigid schooling,Songs,Hard
+Sympathy for the Devil,😈🤝 Stones,A song by The Rolling Stones from the perspective of Lucifer,Songs,Hard
+Purple Haze,💜🌫️🎸,A psychedelic rock anthem by Jimi Hendrix,Songs,Hard
+Fast Car,🚗💨 Tracy Chapman,A song by Tracy Chapman about escaping poverty,Songs,Hard
+Come As You Are,🚶‍♂️ Nirvana,A song by Nirvana with a distinctive guitar riff,Songs,Hard
+Stranger Things,🧑‍🤝‍🧑💀🚲,A group of kids encounters supernatural forces in the 1980s,TV Shows,Easy
+The Office,📄👨‍💼📠,The everyday work lives of office employees,TV Shows,Easy
+Friends,☕🛋️🧑‍🤝‍🧑,The lives of six friends living in Manhattan,TV Shows,Easy
+The Simpsons,🍩📺👨‍👩‍👧‍👦,The satirical adventures of a working-class family,TV Shows,Easy
+SpongeBob SquarePants,🍍🍔🦀,The adventures of a sea sponge who lives in a pineapple under the sea,TV Shows,Easy
+Pokémon,⚡️🔴⚪️🐹,A young boy's journey to become a master of pocket monsters,TV Shows,Easy
+Scooby-Doo,🐶🚐👻,A group of teenagers and their talking dog solve mysteries,TV Shows,Easy
+The Big Bang Theory,⚛️🤓🍕,The lives of four socially awkward scientists,TV Shows,Easy
+How I Met Your Mother,☂️🍻👩‍👦,A father recounts to his children the events that led him to meet their mother,TV Shows,Easy
+Grey's Anatomy,🏥👩‍⚕️❤️,The personal and professional lives of surgical interns and their supervisors,TV Shows,Easy
+The Mandalorian,🤠👶🛸,A lone bounty hunter travels the outer reaches of the galaxy,TV Shows,Easy
+Family Guy,👨‍👩‍👧‍👦🐶🍺,The dysfunctional adventures of the Griffin family,TV Shows,Easy
+South Park,🏔️👦🤬,The surreal adventures of four boys in a small Colorado town,TV Shows,Easy
+The Fresh Prince of Bel-Air,👑🏀🕺,A street-smart teenager is sent to live with his wealthy relatives,TV Shows,Easy
+Seinfeld,🎤🥣🥨,A show about nothing, following the life of a stand-up comedian,TV Shows,Easy
+The Walking Dead,🧟‍♂️🏹💀,Survivors of a zombie apocalypse try to stay alive,TV Shows,Easy
+Paw Patrol,🐾🐶🚒,A group of search and rescue dogs,TV Shows,Easy
+Doctor Who,👨‍⚕️📞👽,The adventures of a Time Lord who travels through time and space,TV Shows,Easy
+Sherlock,🕵️‍♂️🎻🇬🇧,Modern-day adventures of a famous detective,TV Shows,Easy
+Squid Game,🦑🔺🟥,Contestants in deep financial debt play deadly children's games,TV Shows,Easy
+Breaking Bad,🧑‍🔬💊🚐,A high school chemistry teacher turns to a life of crime,TV Shows,Hard
+Game of Thrones,🐉👑⚔️,Noble families vie for control of the Iron Throne,TV Shows,Hard
+The Sopranos,🍝🦆🛋️,The life of a New Jersey mob boss,TV Shows,Hard
+The Wire,📞👮‍♂️🏙️,A look at the drug scene in Baltimore through the eyes of drug dealers and law enforcement,TV Shows,Hard
+Black Mirror,📱⚫️🔮,An anthology series exploring a twisted, high-tech multiverse,TV Shows,Hard
+Westworld,🤠🤖🎹,A futuristic theme park where visitors can live out their fantasies with android hosts,TV Shows,Hard
+Fleabag,☕️🐹💔,"A dry-witted woman, known for breaking the fourth wall, navigates life and love in London",TV Shows,Hard
+Chernobyl,☢️🏭🔥,The story of the 1986 nuclear disaster,TV Shows,Hard
+Mad Men,🥃👔🏙️,The lives of 1960s advertising executives,TV Shows,Hard
+Peaky Blinders,👨‍👦‍👦🎩🔪,A gangster family epic set in 1900s England,TV Shows,Hard
+The Crown,👑🇬🇧👸,The reign of Queen Elizabeth II,TV Shows,Hard
+Arrested Development,🍌💰🏠,The story of a wealthy family who lost everything,TV Shows,Hard
+Twin Peaks,🌲🦉🥧,An FBI agent investigates a murder in a peculiar town,TV Shows,Hard
+The Handmaid's Tale,🔴✍️👁️,A woman forced to live as a concubine under a fundamentalist theocratic dictatorship,TV Shows,Hard
+Ozark,💰⛰️🚤,A financial advisor drags his family from Chicago to the Missouri Ozarks,TV Shows,Hard
+Better Call Saul,👨‍⚖️📞🏜️,The story of a small-time attorney's transformation into a morally challenged lawyer,TV Shows,Hard
+Succession,👑👨‍👩‍👧‍👦🚁,The story of a dysfunctional family of media moguls,TV Shows,Hard
+True Detective,🕵️‍♂️🌀⭐,An anthology series in which police investigations unearth the personal and professional secrets of those involved,TV Shows,Hard
+Fargo,🌨️💵👮‍♀️,An anthology series based on the 1996 film,TV Shows,Hard
+BoJack Horseman,🐴⭐🎬,The washed-up star of a 1990s sitcom,TV Shows,Hard
+Super Mario Bros.,🍄👨‍🔧🐢,A plumber's quest to rescue a princess,Video Games,Easy
+The Legend of Zelda,🧝‍♂️🗡️🛡️,An elf-like boy's quest to rescue a princess and save a kingdom,Video Games,Easy
+Minecraft,🧱⛏️🧟,A sandbox game about placing blocks and going on adventures,Video Games,Easy
+Tetris,🧱➡️⬇️,A tile-matching puzzle game,Video Games,Easy
+Among Us,👨‍🚀🔪🤫,A multiplayer game of teamwork and betrayal,Video Games,Easy
+Pac-Man,🟡👻🍒,A yellow character eats dots in a maze,Video Games,Easy
+Sonic the Hedgehog,🦔💍💨,A blue hedgehog who can run at supersonic speeds,Video Games,Easy
+Donkey Kong,🦍🍌🔨,A large ape who throws barrels,Video Games,Easy
+Street Fighter,🥋👊🔥,A one-on-one fighting game,Video Games,Easy
+Animal Crossing,🏝️🏡🦋,A life simulation game where you live with anthropomorphic animals,Video Games,Easy
+Fortnite,⛏️🔫🕺,A battle royale game where you build structures,Video Games,Easy
+Roblox,🧱🧑‍💻🎮,An online game platform and game creation system,Video Games,Easy
+Candy Crush Saga,🍬🍭🔴,A tile-matching game where you swap colorful candies,Video Games,Easy
+Angry Birds,🐦 slingshot 🐷,Players use a slingshot to launch birds at pigs,Video Games,Easy
+Pokémon Go,📱🚶‍♂️🔴,An augmented reality mobile game where you catch virtual creatures,Video Games,Easy
+The Sims,👨‍👩‍👧‍👦🏠💎,A life simulation game where you control virtual people,Video Games,Easy
+Grand Theft Auto V,🚗💰🌴,An action-adventure game set in the fictional state of San Andreas,Video Games,Easy
+Red Dead Redemption 2,🤠🐴🚂,A Western-themed action-adventure game,Video Games,Easy
+God of War,🧔🪓❄️,A Spartan warrior who becomes the Greek God of War,Video Games,Easy
+The Last of Us,👧👨‍👧🧟,A man and a teenage girl travel across a post-apocalyptic United States,Video Games,Easy
+Dark Souls,🔥💀⚔️,A notoriously difficult action role-playing game,Video Games,Hard
+Bloodborne,🩸🎩🐺,An action RPG set in a Gothic, Victorian-era inspired city,Video Games,Hard
+Elden Ring,💍🌳👑,An action RPG set in the Lands Between,Video Games,Hard
+Metal Gear Solid,🐍📦🤫,A stealth game where you infiltrate a nuclear weapons facility,Video Games,Hard
+BioShock,🌊👨‍👧‍👦💉,A first-person shooter set in an underwater city,Video Games,Hard
+Portal,🔫🔵🟠,A puzzle-platform game where you create inter-spatial portals,Video Games,Hard
+Half-Life 2,👓🔨🐜,A first-person shooter where you play as Gordon Freeman,Video Games,Hard
+Shadow of the Colossus,👦🏻🗡️🗿,A young man travels to a forbidden land to defeat sixteen massive beings,Video Games,Hard
+Final Fantasy VII,🗡️☁️☄️,A role-playing game about a mercenary who joins an eco-terrorist group,Video Games,Hard
+World of Warcraft,🦁⚔️🐲,A massively multiplayer online role-playing game,Video Games,Hard
+Overwatch,🦸‍♀️🤖🔫,A team-based multiplayer first-person shooter with hero characters,Video Games,Hard
+League of Legends,💥💎🏆,A multiplayer online battle arena game,Video Games,Hard
+Stardew Valley,👨‍🌾🐔🍓,A farming simulation role-playing game,Video Games,Hard
+Undertale,❤️💀🎶,A role-playing game where you can choose to befriend or fight monsters,Video Games,Hard
+Celeste,🍓🏔️🧗‍♀️,A platforming game about a young woman climbing a mountain,Video Games,Hard
+Hollow Knight,🐞🗡️👑,An action-adventure game set in a vast interconnected world of insects and heroes,Video Games,Hard
+Disco Elysium,🕵️‍♂️👔🎲,A role-playing game where you play as a detective with a unique skill system,Video Games,Hard
+Cyberpunk 2077,🌃🤖🔫,An action role-playing game set in a dystopian city,Video Games,Hard
+Sekiro: Shadows Die Twice,🐺🗡️🇯🇵,An action-adventure game set in a reimagined late 16th-century Japan,Video Games,Hard
+The Witcher 3: Wild Hunt,🐺⚔️🦄,An action role-playing game where you play as a monster hunter,Video Games,Hard

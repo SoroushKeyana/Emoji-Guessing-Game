@@ -10,7 +10,7 @@ app.secret_key = os.environ.get('SECRET_KEY', 'emoji-guess-secret')
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
-CATEGORIES = ['Movies', 'TV Shows', 'Books', 'Video Games']
+CATEGORIES = ['Movies', 'TV Shows', 'Books', 'Video Games', 'Songs', 'Famous People', 'Countries']
 DIFFICULTY_LEVELS = ['Easy', 'Hard']
 ROUNDS = 5
 
